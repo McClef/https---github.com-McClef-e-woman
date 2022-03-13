@@ -116,17 +116,28 @@
     padding: 60px 30px;
 }
 
-/* ---About Page--- */
-
+/* ---background images--- */
 .art-about-1 {
-    height: 100vh;
     background-image: url(/img/about-1.png);
+}
+.art-train-1 {
+    background-image: url(/img/trai.jpg);  
+}
+.art-business-1 {
+    background-image: url(/img/business-sup.jpg);      
+}
+.art-finance-1 {
+    background-image: url(/img/fina.avif);          
+}
+/* ---About Page--- */
+.art-about-1, .art-train-1, .art-business-1, .art-finance-1 {
+    height: 100vh;
     background-attachment: fixed;
     background-size: cover;
     position: relative;
     /* object-fit: cover; */
 }
-.art-about-1::before {
+.art-about-1::before, .art-train-1::before, .art-business-1::before, .art-finance-1::before {
     content: "";
     display: block;
     position: absolute;
@@ -137,13 +148,13 @@
     background: rgb(56, 56, 139); 
     opacity: 0.7;
 }
-.art-about-1 h2 {
+.art-about-1 h2, .art-train-1 h2, .art-business-1 h2, .art-finance-1 h2 {
     position: absolute;
     bottom: 2.5rem;
     text-align: center;
     width: 90%;
     color: white;
-    font-size: 3.5rem;
+    font-size: 2.5rem;
 }
 .box{
     width: 100%;
@@ -174,7 +185,7 @@
     text-align: center;
     color: white;
 }
-.head-content h1, .art-about-1 h2 {
+.head-content h1 {
     font-size: 65px;
     font-weight: 600;
     margin-bottom: 40px;
