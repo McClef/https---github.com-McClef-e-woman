@@ -132,15 +132,18 @@
 .art-media-1 {
     background-image: url(/img/medi.jpg);
 }
+.art-market-1 {
+    background-image: url(/img/market.avif);
+}
 /* ---About Page--- */
-.art-about-1, .art-train-1, .art-business-1, .art-finance-1, .art-media-1 {
+.art-about-1, .art-train-1, .art-business-1, .art-finance-1, .art-media-1, .art-market-1 {
     height: 100vh;
     background-attachment: fixed;
     background-size: cover;
     position: relative;
     object-fit: cover;
 }
-.art-about-1::before, .art-train-1::before, .art-business-1::before, .art-finance-1::before, .art-media-1::before {
+.art-about-1::before, .art-train-1::before, .art-business-1::before, .art-finance-1::before, .art-media-1::before, .art-market-1::before {
     content: "";
     display: block;
     position: absolute;
@@ -151,7 +154,7 @@
     background: rgb(56, 56, 139); 
     opacity: 0.7;
 }
-.art-about-1 h2, .art-train-1 h2, .art-business-1 h2, .art-finance-1 h2, .art-media-1 h2 {
+.art-about-1 h2, .art-train-1 h2, .art-business-1 h2, .art-finance-1 h2, .art-media-1 h2, .art-market-1 h2 {
     position: absolute;
     bottom: 2.5rem;
     text-align: center;
