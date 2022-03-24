@@ -155,13 +155,29 @@
     background: rgb(56, 56, 139); 
     opacity: 0.7;
 }
-.art-about-1 h2, .art-train-1 h2, .art-business-1 h2, .art-finance-1 h2, .art-media-1 h2, .art-market-1 h2 {
+.art-about-1 h2, .art-train-1 h2, .art-business-1 h2, .art-finance-1 h2, .art-media-1 h2 {
     position: absolute;
     bottom: 2.5rem;
     text-align: center;
     width: 90%;
     color: white;
     font-size: 2.5rem;
+}
+.art-market-1 h2 {
+    position: absolute;
+    bottom: 12rem;
+    text-align: center;
+    width: 90%;
+    color: white;
+    font-size: 2.5rem;
+}
+.market-charge {
+    position: absolute;
+    bottom: 3.5rem;
+    text-align: center;
+    width: 90%;
+    color: white;
+    font-size: 2.0rem; 
 }
 .box{
     width: 100%;
