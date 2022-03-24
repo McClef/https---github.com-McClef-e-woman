@@ -13,7 +13,7 @@
   </head>
   <body>
     <div class="header">
-      <!-- navbar 1  -->
+      <!-- navbar and Header  -->
 
       <nav class="navbar navbar-expand-lg bg-white fixed-top">
         <div class="container">
@@ -34,12 +34,12 @@
               </li>
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Service
+                  Services
                 </a>
                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                   <li><a class="dropdown-item" href="/Training.html">Training</a></li>
                   <li><a class="dropdown-item" href="/business-s.html">Business Support</a></li>
-                  <li><a class="dropdown-item" href="enter-dev.html">Enterprice Development</a></li>
+                  <li><a class="dropdown-item" href="enter-dev.html">Enterprise Development</a></li>
                   <li><a class="dropdown-item" href="/fin.html">Access to Finance</a></li>
                 </ul>
               </li>
@@ -86,33 +86,50 @@
                 </div>
               </div>
 
-                <div class="d-grid gap-2 col-6 mx-auto my-3">
-                  <button class="btn btn-primary modal-btn" type="button">For more information and registration</button>
+              <!-- Modal -->
+                <div class="d-grid gap-2 col-3 mx-auto my-5">
+                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@mdo">For more Infomation and registration</button>
                 </div>
-<!--                 
-                <div class="modal-bg">
-                  <div class="modal-cont">
-                    <form class="row g-3">
-                      <div class="col-md-6">
-                        <label for="inputEmail4" class="form-label">Name</label>
-                        <input type="text" class="form-control" id="inputEmail4">
+
+                  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="modal-title" id="exampleModalLabel">New message</h5>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                          <form>
+                            <div class="mb-3">
+                              <label for="recipient-name" class="col-form-label">Recipient:</label>
+                              <input type="text" class="form-control" id="recipient-name" placeholder="Name">
+                            </div>
+                            <div class="mb-3">
+                              <label for="recipient-email" class="col-form-label">Email</label>
+                              <input type="email" class="form-control" id="recipient-email" placeholder="yourmail@mail.com">
+                            </div>
+                            <div class="mb-3">
+                              <label for="recipient-tel" class="col-form-label">Phone No</label>
+                              <input type="tel" class="form-control" id="inputEmail4" placeholder="+4472345678">
+                            </div>
+                            <div class="mb-3">
+                              <label for="message-text" class="col-form-label">Message:</label>
+                              <textarea class="form-control" id="message-text"></textarea>
+                            </div>
+                          </form>
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                          <button type="button" class="btn btn-primary">Send message</button>
+                        </div>
                       </div>
-                      <div class="col-md-6">
-                        <label for="inputEmail4" class="form-label">Email</label>
-                        <input type="email" class="form-control" id="inputEmail4">
-                      </div> 
-                      <div class=" col-12 mb-3">
-                        <label for="exampleFormControlTextarea1" class="form-label">Comment</label>
-                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="1234 Main St"></textarea>
-                      </div>
-                      <div class="col-md">
-                        <button type="submit" class="btn btn-primary">Submit</button>
-                      </div>
-                    </form>
+                    </div>
                   </div>
-                </div> -->
-                
-            </div>
+              </div>      
+          </div>
+
+        </article>
+
 
           <!-- footer -->
           <footer class="bg-dark text-white pt-5 pb-4">
@@ -190,8 +207,7 @@
             </div>
         
         </footer>
-      </div>     
-    </article>
+
     
     
     

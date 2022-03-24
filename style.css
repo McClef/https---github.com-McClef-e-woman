@@ -130,10 +130,11 @@
     background-image: url(/img/fina.avif);          
 }
 .art-media-1 {
-    background-image: url(/img/medi.jpg);
+    background-image: url(/img/market.avif);
 }
 .art-market-1 {
-    background-image: url(/img/market.avif);
+    background-image: url(/img/medi.jpg);
+
 }
 /* ---About Page--- */
 .art-about-1, .art-train-1, .art-business-1, .art-finance-1, .art-media-1, .art-market-1 {
@@ -196,34 +197,6 @@
     font-weight: 600;
     margin-bottom: 40px;
 }
-/* .modal-bg {
-    position: fixed;
-    width: 100%;
-    height: 100vh;
-    left: 0;
-    right: 0;
-    background-color: rgba(0,0,0,0.5);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    visibility: hidden;
-    opacity: 0;
-    transition: visibility 0s opacity 0.5s;
-}
-.bg-active {
-    visibility: visible;
-    opacity: 1;
-}
-.modal {
-    background-color: whitesmoke;
-    width: 30%;
-    height: 30%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-} */
-
 
 /* ---- media query---- */
 @media only screen and (max-width: 727px) {
