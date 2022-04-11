@@ -188,7 +188,9 @@
 
 /* Blog Article layout */
 
-
+.hide {
+    display: none;
+}
 
 
 
