@@ -193,33 +193,6 @@
 }
 
 
-
-/* .back-video {
-    position: reletive;
-    right: 0;
-    bottom: 0;
-    min-width: 100%;
-    min-height: 100%;
-    width: auto;
-    height: auto;
-    z-index: -100;
-} */
-/* .head-content {
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    width: 90%;
-    max-width: 900px;
-    transform: translate(-50%, -50%);
-    text-align: center;
-    color: white;
-} */
-/* .head-content h1 {
-    font-size: 65px;
-    font-weight: 600;
-    margin-bottom: 40px;
-} */
-
 /* ---- media query---- */
 @media only screen and (max-width: 727px) {
     .navbar-nav{
