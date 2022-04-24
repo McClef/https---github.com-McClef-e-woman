@@ -74,71 +74,89 @@
           </div>
 
           <div class="container">
-            <hr class="mb-3 mx-3 border border-3 border-primary">
-            <div class="row">
-              <div class="col-sm-8 leftcolumn py-4 ">
+            <hr class="mb-3 mx-1 border border-2 border-primary">
+          
+            <div class="tab">
+              <button class="tablinks" onclick="openCity(event, 'blogArticle')">Article</button>
+              <button class="tablinks" onclick="openCity(event, 'blogImage')">Image-Article</button>
+              
+            </div>
+            
+            <div id="blogArticle" class="tabcontent">
+              <div class="card border-light mb-3">   
+                <div class="card mb-3">
+                  
+                  <div class="card-body">
+                    <h2 class="card-title">Brain Booster</h2>
+                    <p class="card-text blog-content">With the advent of improved technology and more insigt into artificial intelligence, it is pivotal for us to keep boosting the brain of our children as well as ours in ensuring that we can still function without machines. </p> 
+                     <p class="card-text blog-content">
+                      You will agree with us that a number of people including children and young people are relying so much on computer/mechanical devices in getting the spelling of words right. This should not be.
+                     </p>    
 
-                <div class="card border-light mb-3">   
-                  <div class="card mb-3">
-                    <!-- <img src="/img/fin.png" class="img-fluid rounded-start" alt="fin.png"> -->
-                    <div class="card-body">
-                      <h2 class="card-title">Investment For Beginners</h2>
-                      <p class="card-text blog-content">The most common misconception about investing is that it is only for the wealthy
-                      That could have been true in the past. But that barrier to entry is no longer present, thanks to companies and services that have made it their mission to make investment options available to everyone, including beginners and those with limited funds to invest.
-                      In fact, with so many investments now available to beginners, there's no reason to pass up the opportunity. That's great news, because investing is a great way to build wealth.</p>
+                    <p class="card-text"><small class="text-muted">Shewa Adeniji PgDip, Contab</small></p>
+                    <p class="card-text"><small class="text-muted">(Cambridge), MBA, MIEE</small></p>
 
-                      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                    </div>
-                  </div> 
-                </div>
-
-                <div class="card border-light mb-3">   
-                  <div class="card mb-3">
-                    <!-- <img src="/img/fin.png" class="img-fluid rounded-start" alt="..."> -->
-                    <div class="card-body">
-                      <h2 class="card-title">Beginners Tips</h2>
-                      <p class="card-text blog-content">The most common misconception about investing is that it is only for the wealthy
-                      That could have been true in the past. But that barrier to entry is no longer present, thanks to companies and services that have made it their mission to make investment options available to everyone, including beginners and those with limited funds to invest.
-                      In fact, with so many investments now available to beginners, there's no reason to pass up the opportunity. That's great news, because investing is a great way to build wealth.</p>
-
-                      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                    </div>
-                  </div> 
-                </div>
-               
-
-              </div>
-
-              <div class="col-sm-4 rightcolumn py-4">
-                <div class="card border-light mb-3">
-                  <h3>Recent Post</h3>
-                  <div class="blog-img">
-                    <img src="/img/blg-1.jpeg" alt="">
-                  </div><br>
-                  <div class="blog-img">
-                    <img src="/img/blg-2.jpeg" alt="">
-                  </div><br>
-                  <div class="blog-img">
-                    <img src="/img/blg.jpeg" alt="">
-                  </div><br>
-                  <div class="blog-img">
-                    <img src="/img/blg-4.jpeg" alt="">
-                  </div><br>
-                  <div class="blog">
-                    <img src="/img/blg-5.jpeg" alt="">
-                  </div><br>
-                  <div class="blog">
-                    <img src="/img/blg-6.jpeg" alt="">
-                  </div><br>
-                  <div class="blog">
-                    <img src="/img/blg-7.jpeg" alt="">
-                  </div><br>
-                  <div class="blog">
-                    <img src="/img/blg-8.jpeg" alt="">
                   </div>
+                </div> 
+              </div>
+          
+              <!-- <div class="card border-light mb-3">   
+                <div class="card mb-3">
+                
+                </div> 
+              </div> -->
+             
+            </div>
+            
+            <div id="blogImage" class="tabcontent">
+              <div class="row">
+                <div class="col-6 col-md-4">
+                  <img src="/img/blg-1.jpeg" class="img-fluid" alt="...">
+                </div>
+                <div class="col-6 col-md-4">
+                  <img src="/img/blg-2.jpeg" class="img-fluid" alt="...">
+                </div>
+                <div class="col-6 col-md-4">
+                  <img src="/img/blg.jpeg" class="img-fluid" alt="...">
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-6 col-md-4">
+                  <img src="/img/blg-4.jpeg" class="img-fluid" alt="...">
+                </div>
+                <div class="col-6 col-md-4">
+                  <img src="/img/blg-5.jpeg" class="img-fluid" alt="...">
+                </div>
+                <div class="col-6 col-md-4">
+                  <img src="/img/blg-6.jpeg" class="img-fluid" alt="...">
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-6 col-md-4">
+                  <img src="/img/blg-7.jpeg" class="img-fluid" alt="...">
+                </div>
+                <div class="col-6 col-md-4">
+                  <img src="/img/blg-8.jpeg" class="img-fluid" alt="...">
+                </div>
+                <div class="col-6 col-md-4">
+                  <img src="/img/blg-9.jpg" class="img-fluid" alt="...">
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-6 col-md-4">
+                  <img src="/img/blg-10.jpg" class="img-fluid" alt="...">
+                </div>
+                <div class="col-6 col-md-4">
+                  <img src="/img/blg-11.jpg" class="img-fluid" alt="...">
+                </div>
+                <div class="col-6 col-md-4">
+                  <!-- <img src="..." class="img-fluid" alt="..."> -->
                 </div>
               </div>
             </div>
+            
+            
+            
           </div>
 
 </div>
@@ -147,17 +165,6 @@
            <hr class="mb-5 mx-5 border border-3 border-primary">
 
   </article>
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -178,9 +185,6 @@
                         Contact
                     </h5>
                     </a>
-                      <p>
-                          <i class="fas fa-home mx-3"></i>Wales, Maple road, Uk
-                      </p>
                       <p>
                           <i class="fas fa-envelope mx-3"></i>info.e-woman@gmail.com
                       </p>

@@ -1,0 +1,68 @@
+1. https://www.youtube.com/embed/VYTKjNAYr9o (#FoodieFriday Lola).
+2. https://www.youtube.com/embed/tba8pvsyIaQ (HelperOfDestiny)
+3. https://www.youtube.com/embed/RKGnBg2AoSs (AfricanFoodSpeedDating)
+4. https://www.youtube.com/embed/_kHIdzOJkJk (MayaAngelou'sLifeChanging)
+5. https://www.youtube.com/embed/Pebjv6Zsi8I (BishopTDJack'sInterview)
+6. https://www.youtube.com/embed/COdI3_oTgss (what's the big idea)
+7. https://www.youtube.com/embed/-v2FyPWNsXw (Deaconess Shewa: Nigeria)
+8. https://youtu.be/geOYbxEvYFQ (The Secret to )
+9. https://www.youtube.com/embed/Pebjv6Zsi8I (Bishop T.D Jakes)
+10. https://www.youtube.com/embed/izcwm9-MU5w (Entrepreneur Journey)
+11. https://www.youtube.com/embed/YerJaTyRgw4 (The double vision)
+12. https://www.youtube.com/embed/oA3-X-5NZHU (AFRO-CARREBBIAN)
+13. https://www.youtube.com/embed/ry3J5jGptsA (mompreneur)
+14. https://www.youtube.com/embed/EPmZmUBFryY (Ghanian man)
+15. https://www.youtube.com/embed/izgwOkwxQ0I (Container Man)
+16. https://www.youtube.com/embed/geOYbxEvYFQ (rabbi manis)
+
+echo "# ewoman" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/McClef/ewoman.git
+git push -u origin main
+
+1. create a repo in your github account.
+2. go to your vscode, open your terminal from the vscode 
+	and clone the repo from the github account by typing 
+	'git clone https://github.com/McClef/nameOfRepo.git'
+3. you then check your tracked/untracked file by typing 
+	'git status'
+4. to track your file/files, you type 'git add .'
+	using the period(.) sign is to track all the files in the folder. 
+	or you track just the file you want by typing 'git add index.html'
+
+UPDATE 24/April/22
+Change the email from info.e-woman@gmail.com to info@ewoman.org
+and change +07789452145 to +447789452145.
+
+Remove the address "Wales, Maple road, Uk. at the footer
+
+MEDIA PAGE: Insert 
+    what's the big idea, 
+    how a kenya woman built 200 home in kenya, 
+    black woman troop, 
+    and Mr Steve. 
+DELETE, 
+    lola, 
+    HOD, 
+    Africa food speed dating and theLionsDen.
+
+MARKET PLACE PAGE: 
+    Insert Product Jingle, 
+    Africa food speed dating, 
+    Afro-caribbean speed dating, 
+    lola, 
+    teen millioniares, 
+    5 mompreneurs, 
+    how a ghanian man is building affordable homes, 
+    he turns shipping container into..,
+    how money works.
+DELETE, 
+    3M's of money, 
+    the entrepreneurial journey, 
+    double V.
+
+
+
